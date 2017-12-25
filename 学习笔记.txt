@@ -1,0 +1,22 @@
+本地：
+
+设置全局
+git config --global user.name "XiaoqiGuo"
+git config --global user.email "Kallyqi@outlook.com"
+
+修改后用
+git add
+git commit -m '评论'
+
+
+状态查询
+git status
+查询提交历史：
+git log --pretty=oneline
+
+查询历史操作
+git reflog
+版本回退：HEAD为当前版本 HEAD^为上一个版本 HEAD^n n个版本
+git reset --hard HEAD^
+git reset --hard commit_id
+
